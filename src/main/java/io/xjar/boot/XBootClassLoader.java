@@ -5,8 +5,10 @@ import io.xjar.XEncryptor;
 import io.xjar.XKit;
 import io.xjar.key.XKey;
 import org.springframework.boot.loader.LaunchedURLClassLoader;
-import sun.misc.Resource;
-import sun.misc.URLClassPath;
+// import sun.misc.Resource;
+// import sun.misc.URLClassPath;
+import jdk.internal.loader.URLClassPath;
+import jdk.internal.loader.Resource;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
