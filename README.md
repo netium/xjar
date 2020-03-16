@@ -10,7 +10,11 @@ GitHub: https://github.com/core-lib/xjar
 * 可选择需要加解密的字节码或其他资源文件，避免计算资源浪费。
 
 ## 环境依赖
-JDK 1.7 +
+JDK 11
+
+## 加密后的JAR包在运行时需要使用JVM参数
+
+--add-opens java.base/jdk.internal.loader=ALL-UNNAMED
 
 ## 使用步骤
 
